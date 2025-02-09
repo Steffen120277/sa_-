@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Assessment - VUCA Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .method {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Self Assessment - VUCA Management</h1>
+
+        <h2>1. Digitalisierung</h2>
+        <div class="question">
+            <label>Wie stark beeinflusst die Digitalisierung derzeit Ihre Geschäftsprozesse?</label><br>
+            <select>
+                <option>0%</option>
+                <option>25%</option>
+                <option>50%</option>
+                <option>75%</option>
+                <option>100%</option>
+            </select>
+            <span class="method">→ Methode: Digitale Kollaborationstools</span>
+        </div>
+
+        <div class="question">
+            <label>Wie oft erleben Sie Ineffizienzen aufgrund veralteter Technologien?</label><br>
+            <select>
+                <option>0%</option>
+                <option>25%</option>
+                <option>50%</option>
+                <option>75%</option>
+                <option>100%</option>
+            </select>
+            <span class="method">→ Methode: Shared Service Center & Automatisierung</span>
+        </div>
+
+        <h2>2. Dekarbonisierung</h2>
+        <div class="question">
+            <label>Wie bewusst ist Ihnen der ökologische Fußabdruck Ihrer Verpackungslösungen?</label><br>
+            <select>
+                <option>0%</option>
+                <option>25%</option>
+                <option>50%</option>
+                <option>75%</option>
+                <option>100%</option>
+            </select>
+            <span class="method">→ Methode: Nachhaltige Verpackungslösungen</span>
+        </div>
+
+        <h2>3. Lieferketten-Resilienz</h2>
+        <div class="question">
+            <label>Wie zuverlässig sind Ihre aktuellen Lieferketten in Krisenzeiten?</label><br>
+            <select>
+                <option>0%</option>
+                <option>25%</option>
+                <option>50%</option>
+                <option>75%</option>
+                <option>100%</option>
+            </select>
+            <span class="method">→ Methode: Multisourcing-Strategien</span>
+        </div>
+
+        <h2>4. Umgang mit Fachkräftemangel</h2>
+        <div class="question">
+            <label>Wie stark beeinträchtigt der Fachkräftemangel Ihre Produktionskapazitäten?</label><br>
+            <select>
+                <option>0%</option>
+                <option>25%</option>
+                <option>50%</option>
+                <option>75%</option>
+                <option>100%</option>
+            </select>
+            <span class="method">→ Methode: Agiles Recruiting & Talentförderung</span>
+        </div>
+
+        <h2>Auswertung und Interpretation</h2>
+        <p><strong>0-25%:</strong> Sehr hohe Notwendigkeit zur Optimierung – eine sofortige Implementierung der entsprechenden Methode wird empfohlen.</p>
+        <p><strong>25-50%:</strong> Verbesserungsbedarf – eine schrittweise Einführung der Methoden kann helfen, Wettbewerbsfähigkeit zu sichern.</p>
+        <p><strong>50-75%:</strong> Guter Stand – punktuelle Optimierungspotenziale vorhanden.</p>
+        <p><strong>75-100%:</strong> Sehr gute Umsetzung – kontinuierliches Monitoring zur weiteren Verbesserung empfohlen.</p>
+    </div>
+</body>
+</html>
